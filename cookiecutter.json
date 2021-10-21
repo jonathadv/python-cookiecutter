@@ -1,0 +1,13 @@
+{
+  "author": "Author",
+  "author_email": "author@email.com",
+  "project_title": "Python Project",
+  "project_name": "{{ cookiecutter.project_title.lower().replace(' ', '-') }}",
+  "project_slug": "{{ cookiecutter.project_title.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "A new Python project.",
+  "version": "0.1.0",
+  "python_version": ["3.8", "3.9", "3.10"],
+  "run_git_init": "y",
+  "run_pipenv_install": "y",
+  "install_pre_commit_hooks": "y"
+}

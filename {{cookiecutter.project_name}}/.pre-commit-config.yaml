@@ -1,0 +1,41 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.2.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: '.py'
+      - id: end-of-file-fixer
+        exclude: '.properties|.py'
+      - id: check-yaml
+  - repo: local
+    hooks:
+      - id: isort
+        name: isort
+        description: "sort imports with isort"
+        entry: pipenv run isort
+        language: system
+        types: [python]
+
+      - id: black
+        name: black
+        description: "format code with Black"
+        entry: pipenv run black
+        language: system
+        types: [python]
+
+      - id: pylint
+        name: pylint
+        description: "lint code with Pylint"
+        entry: pipenv run pylint
+        language: system
+        types: [python]
+
+      - id: pytest
+        name: pytest
+        description: "test code with Pytest"
+        entry: pipenv run pytest
+        language: system
+        types: [python]
+        pass_filenames: false

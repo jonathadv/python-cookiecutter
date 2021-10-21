@@ -1,0 +1,35 @@
+{
+    "python.testing.unittestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-c",
+        "noconfig",
+    ],
+    "python.pythonPath": "python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [],
+    "python.formatting.provider": "black",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "files.exclude": {
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,        
+        "**/.coverage": true,
+        "**/__pycache__": true,
+        "**/.idea": true,
+    }
+    
+}

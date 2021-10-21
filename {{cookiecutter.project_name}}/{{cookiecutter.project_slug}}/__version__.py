@@ -1,0 +1,6 @@
+__title__ = "{{cookiecutter.project_title}}"
+__project_name__ = "{{cookiecutter.project_name}}"
+__description__ = "{{cookiecutter.project_short_description}}"
+__version__ = "{{cookiecutter.version}}"
+__author__ = "{{cookiecutter.author}}"
+__author_email__ = "{{cookiecutter.author_email}}"
