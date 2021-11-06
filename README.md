@@ -24,7 +24,3 @@ Run cookiecutter pointing to this repo
 ```bash
 $ cookiecutter https://github.com/jonathadv/python-cookiecutter.git
 ```
-
-Run cookiecutter pointing to this repo
-
-
