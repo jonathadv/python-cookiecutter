@@ -13,8 +13,8 @@ good-names=pk,i,j,k,v,e,ex,x,y,Run,tz
 min-public-methods=0
 
 [SIMILARITIES]
-# Minimum lines number of a similarity.
-min-similarity-lines=5
+# Ignore imports when computing similarities.
+ignore-imports=yes
 
 [MESSAGES CONTROL]
 disable=
