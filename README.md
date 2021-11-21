@@ -2,7 +2,7 @@
 
 A [cookiecutter](https://github.com/cookiecutter/cookiecutter) for Python projects.
 
-**Main Features**
+**Features**
 * [Pipenv](https://github.com/pypa/pipenv) as packaging tool.
 * [pylint](https://github.com/PyCQA/pylint) as source code analyzer.
 * [pytest](https://github.com/pytest-dev/pytest) as testing framework.
@@ -11,6 +11,7 @@ A [cookiecutter](https://github.com/cookiecutter/cookiecutter) for Python projec
 * [black](https://github.com/psf/black) as (uncompromising) code formatter.
 * [pre-commit](https://pre-commit.com/) to manage pre-commit hooks.
 * [pyproject.toml](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/) as main configuration file.
+* Predefined vscode settings
 
 
 ## Usage
