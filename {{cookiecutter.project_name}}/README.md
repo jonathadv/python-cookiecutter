@@ -4,9 +4,9 @@
 
 # Project Setup
 
-Install all dependencies from Pipfile.lock
+Install all dependencies from Pipfile
 
-`$ pipenv sync --dev`
+`$ pipenv install --dev`
 
 Install the pre-commit hooks
 
